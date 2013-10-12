@@ -12,6 +12,13 @@
     <connection>git:http://github.com/elehack/external-build-maven-plugin.git</connection>
     <developerConnection>git:git@github.com:elehack/external-build-maven-plugin.git</developerConnection>
   </scm>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>http://opensource.org/licenses/mit-license.php</url>
+    </license>
+  </licenses>
+
   <dependencies>
     <dependency>
       <groupId>org.apache.maven</groupId>
