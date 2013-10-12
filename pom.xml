@@ -9,8 +9,8 @@
   <url>http://elehack.net/code/external-build-maven-plugin</url>
   <scm>
     <url>http://github.com/elehack/external-build-maven-plugin</url>
-    <connection>git:http://github.com/elehack/external-build-maven-plugin.git</connection>
-    <developerConnection>git:git@github.com:elehack/external-build-maven-plugin.git</developerConnection>
+    <connection>scm:git:http://github.com/elehack/external-build-maven-plugin.git</connection>
+    <developerConnection>scm:git:git@github.com:elehack/external-build-maven-plugin.git</developerConnection>
   </scm>
   <licenses>
     <license>
