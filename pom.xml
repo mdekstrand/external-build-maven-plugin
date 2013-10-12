@@ -6,7 +6,12 @@
   <packaging>maven-plugin</packaging>
   <version>0.1-SNAPSHOT</version>
   <name>External Build Dir Maven Mojo</name>
-  <url>http://maven.apache.org</url>
+  <url>http://elehack.net/code/external-build-maven-plugin</url>
+  <scm>
+    <url>http://github.com/elehack/external-build-maven-plugin</url>
+    <connection>git:http://github.com/elehack/external-build-maven-plugin.git</connection>
+    <developerConnection>git:git@github.com:elehack/external-build-maven-plugin.git</developerConnection>
+  </scm>
   <dependencies>
     <dependency>
       <groupId>org.apache.maven</groupId>
