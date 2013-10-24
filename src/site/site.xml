@@ -1,0 +1,38 @@
+<project xmlns="http://maven.apache.org/DECORATION/1.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/DECORATION/1.0.0
+                             http://maven.apache.org/xsd/decoration-1.0.0.xsd"
+         name="External Build Maven Plugin">
+  <skin>
+    <groupId>org.apache.maven.skins</groupId>
+    <artifactId>maven-fluido-skin</artifactId>
+    <version>1.3.0</version>
+  </skin>
+  <publishDate position="right"/>
+  <version position="right"/>
+  <poweredBy/>
+  <custom>
+    <fluidoSkin>
+      <gitHub>
+        <projectId>elehack/external-build-maven-plugin</projectId>
+        <ribbonOrientation>right</ribbonOrientation>
+        <ribbonColor>black</ribbonColor>
+      </gitHub>
+    </fluidoSkin>
+  </custom>
+  <body>
+    <breadcrumbs>
+      <item name="Michael Ekstrand"
+            href="http://elehack.net"/>
+      <item name="Code"
+            href="http://elehack.net/code/"/>
+      <item name="External Build Maven Plugin"
+            href="index.html"/>
+    </breadcrumbs>
+    <menu name="Documentation">
+      <item name="About" href="index.html"/>
+      <item name="Goals" href="plugin-info.html"/>
+    </menu>
+    <menu name="Module Info" ref="reports"/>
+  </body>
+</project>
