@@ -23,6 +23,14 @@
     </license>
   </licenses>
 
+  <distributionManagement>
+    <site>
+      <id>elehack.net</id>
+      <name>elehack.net</name>
+      <url>scpexe://elehack.net/srv/www/projects/${project.artifactId}</url>
+    </site>
+  </distributionManagement>
+
   <dependencies>
     <dependency>
       <groupId>org.apache.maven</groupId>
@@ -37,6 +45,13 @@
   </dependencies>
 
   <build>
+    <extensions>
+      <extension>
+        <groupId>org.apache.maven.wagon</groupId>
+        <artifactId>wagon-ssh-external</artifactId>
+        <version>2.5</version>
+      </extension>
+    </extensions>
     <pluginManagement>
       <plugins>
         <plugin>
